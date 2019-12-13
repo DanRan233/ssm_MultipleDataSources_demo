@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://www.mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wzk.dao.UserDao" >
+
+    <!-- 查询用户是否存在，用户名密码是否正确 -->
+    <select id="login" parameterType="java.util.Map" resultType="java.util.Map" >
+        select UserID,UserName from userInfo where UserName = #{UserName} and  Password = #{Password}
+    </select>
+
+    <!-- 新增用户信息 -->
+    <insert id="addUser" parameterType="User">
+        insert into userInfo(UserName,Password) values(#{UserName},#{Password})
+    </insert>
+
+</mapper>
