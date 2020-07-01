@@ -59,7 +59,7 @@
         <cxf.version>3.2.4</cxf.version>
 
         <!-- log4j核心依赖，2.12.1，更新于2019-08-09 -->
-        <log4j-core.version>2.12.1</log4j-core.version>
+        <log4j-core.version>2.13.2</log4j-core.version>
 
         <!-- 腾讯云短信java依赖 ,3.0.112,更新于2019-12-05 -->
         <tencentcloud-sdk-java.version>3.0.112</tencentcloud-sdk-java.version>
