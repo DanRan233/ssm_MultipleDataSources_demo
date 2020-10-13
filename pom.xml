@@ -20,7 +20,7 @@
         <maven.compiler.target>1.7</maven.compiler.target>
 
         <!-- junit Java单元测试依赖，4.13-rc-2，更新于2019-12-01 -->
-        <junit.version>4.13-rc-2</junit.version>
+        <junit.version>4.13.1</junit.version>
 
         <!-- javax.servlet依赖，4.0.1 ，更新于2018-04-20，IDEA不会自动导入该依赖，所以需要maven引入-->
         <javax-servlet.version>4.0.1</javax-servlet.version>
