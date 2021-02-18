@@ -47,7 +47,7 @@
         <c3p0.version>0.9.5.4</c3p0.version>
 
         <!-- jackson核心依赖 用于对json格式操作，2.10.0，更新于2019-11-09 -->
-        <jackson.version>2.10.1</jackson.version>
+        <jackson.version>2.12.1</jackson.version>
 
         <!-- 阿里巴巴的JSON处理器，1.2.62，更新于2019-10-07-->
         <fastJson.version>1.2.62</fastJson.version>
